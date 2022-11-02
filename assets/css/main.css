@@ -71,6 +71,11 @@ input, select, textarea {
 	-ms-appearance: none;
 	appearance: none;
 }
+/* section */
+
+.projects {
+	text-align: justify;
+}
 
 /* Basic */
 
@@ -704,14 +709,13 @@ input, select, textarea {
 			}
 
 		.image.main {
-			display: block;
 			margin: 2.5rem 0;
-			width: 100%;
+			/* width: 50%; */
 		}
 
 			.image.main img {
-				max-width: 600px;
-				width: 50%;
+				/* max-width: 600px; */
+				width: 100%;
 			}
 
 		.image.profile {
@@ -1285,7 +1289,7 @@ input, select, textarea {
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		max-width: 100%;
+		max-width: 50%;
 		text-align: center;
 	}
 
@@ -1475,7 +1479,7 @@ input, select, textarea {
 			#header .logo {
 				width: 4.75rem;
 				height: 4.75rem;
-				line-height: 4.75rem;
+				line-height: 2.2rem;
 			}
 
 				#header .logo .icon:before {
