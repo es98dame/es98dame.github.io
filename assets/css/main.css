@@ -73,8 +73,11 @@ input, select, textarea {
 }
 /* section */
 
-.projects {
-	text-align: left;
+.projects p {
+	/* text-align: left; */
+	max-width: 400px;
+	word-wrap: break-word;
+	display: inline-block;
 }
 
 /* Basic */
@@ -710,12 +713,12 @@ input, select, textarea {
 
 		.image.main {
 			margin: 2.5rem 0;
-			width: 50%;
+			/* width: 50%; */
 		}
 
 			.image.main img {
-				/* max-width: 600px; */
-				width: 100%;
+				max-width: 500px;
+				/* width: 100%; */
 			}
 
 		.image.profile {
@@ -747,6 +750,10 @@ input, select, textarea {
 
 			.image.main {
 				margin: 1.5rem 0;
+			}
+			.image.main img {
+				max-width: 350px;
+				/* width: 100%; */
 			}
 
 		}
@@ -1289,7 +1296,7 @@ input, select, textarea {
 		background-image: -webkit-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: -ms-radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
 		background-image: radial-gradient(rgba(0, 0, 0, 0.25) 25%, rgba(0, 0, 0, 0) 55%);
-		max-width: 50%;
+		max-width: 100%;
 		text-align: center;
 	}
 
@@ -1477,9 +1484,9 @@ input, select, textarea {
 				}
 
 			#header .logo {
-				width: 4.75rem;
+				/* width: 4.75rem;
 				height: 4.75rem;
-				line-height: 2.2rem;
+				line-height: 2.2rem; */
 			}
 
 				#header .logo .icon:before {
